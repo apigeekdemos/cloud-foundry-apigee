@@ -1,8 +1,8 @@
 ---
 applications:
-- name: sample
-  memory: 600M
+- name: {your_initials}-sampleapi
+  memory: 64M
+  disk_quota: 128M
   instances: 1
-  host: sample
   path: .
   buildpack: nodejs_buildpack
