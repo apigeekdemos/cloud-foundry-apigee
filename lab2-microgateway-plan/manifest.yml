@@ -1,6 +1,7 @@
 ---
 applications:
-- name: {your_initials}-sampleapi-mg
+# replace your-username with e.g. jhondoe or janedoe
+- name: {your-username}-samplebackend-lab2
   memory: 64M
   disk_quota: 128M
   instances: 1
