@@ -21,6 +21,7 @@ edgemicro:
     rotate_interval: 24
   plugins:
     sequence:
+      - cloud-foundry-route-service
       - oauth
       - spikearrest
 spikearrest:
