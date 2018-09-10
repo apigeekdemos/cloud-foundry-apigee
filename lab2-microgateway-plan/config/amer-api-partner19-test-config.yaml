@@ -21,7 +21,11 @@ edgemicro:
     rotate_interval: 24
   plugins:
     sequence:
-      #- oauth
+      - oauth
+      - spikearrest
+spikearrest:
+   timeUnit: minute
+   allow: 10
 headers:
   x-forwarded-for: true
   x-forwarded-host: true
