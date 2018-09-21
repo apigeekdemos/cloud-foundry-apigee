@@ -1,6 +1,6 @@
 ---
 applications:
-- name: {PCF_USERNAME}-sampleapi
+- name: {PCF_USERNUM}-sampleapi
   memory: 256M
   disk_quota: 512M
   instances: 1
