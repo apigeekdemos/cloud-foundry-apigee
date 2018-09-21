@@ -1,5 +1,6 @@
 ---
 applications:
+# replace PCF_USERNUM with your 3 digit user number from handout e.g. 149
 - name: {PCF_USERNUM}-sampleapi
   memory: 256M
   disk_quota: 512M
