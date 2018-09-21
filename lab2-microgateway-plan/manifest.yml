@@ -1,7 +1,7 @@
 ---
 applications:
-# replace your-username with e.g. jhondoe or janedoe
-- name: {your-username}-samplebackend-lab2
+# replace PCF_USERNUM with your 3 digit user number from handout e.g. 149
+- name: PCF_USERNUM-samplebackend-lab2
   memory: 64M
   disk_quota: 512M
   instances: 1
