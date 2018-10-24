@@ -1,9 +1,8 @@
 ---
 applications:
-- name: sample-co
+- name: PCF_USERNUM-sample-coresident-app
   memory: 1G
   instances: 1
-  host: sample-co
   health-check-type: http
   health-check-http-endpoint: /healthcheck
   path: .
